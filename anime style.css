@@ -1,0 +1,67 @@
+
+ /* Some Variables */
+ :root {
+    --main-color:#52506b ;
+    --hover-color:hsl(240, 2%, 10%) ;
+    --body-color:#3c3947;
+    --container-color:#282d31 ;
+    --text-color:#e2e6faee;
+   }
+body{
+    background: var(--body-color);
+    color:var(--text-color);
+}
+.container{
+   max-width: 1068px;
+   margin: auto;
+   width: 100%;
+}
+header{
+    position: fixed ;
+    top: 0;
+    right: 0;
+    width: 27%;
+    background: var(--body-color)
+    Z-index: 100;
+}
+/* Home */
+.home{
+    position: relative;
+     min-height: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem !important;
+    border-radius: 0.9rem;
+}
+
+/* Heading */
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(133, 114, 114);
+    padding: 8px 14px;
+    border: 1px solid hsla(180, 4%, 22%, 0.979);
+    margin-bottom: 2rem;
+}
+ .li, a, button {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        font-size: 160;
+        color: rgb(184, 214, 12);
+        text-decoration: none;
+        display: inline-block;
+        padding: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    button{
+        padding: 9px 25px;
+        background-color: rgb(55, 55, 243);
+        border: none;
+        border-radius: 50px;
+        cursor:pointer;
+        transition: all 0.3s ease 0s;
+    }
+    button:hover {
+        background-color: rgb(99, 99, 240);
+    }

@@ -1,0 +1,120 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   box-sizing: border-box;
+   background-color: #141414;
+}
+.hello{
+    width: 100%;
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 20px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #faf5f5;
+     color: #fcf8f8;
+    background-color: #141414;
+    font-size: 30px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fa5555;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    color: rgb(78, 78, 172);
+    outline: none;
+    background: transparent;
+    border: 1px solid #215199;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+ input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 30px;
+}
+li, a, button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 160;
+    color: rgb(184, 214, 12);
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px;
+    transition: all 0.3s ease 0s;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(55, 55, 243);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgb(240, 99, 240);
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px ;
+}
+.container .contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo.box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: center;
+    font-size: 22px;
+}
+.container .contactInfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fcfcfc;
+}
